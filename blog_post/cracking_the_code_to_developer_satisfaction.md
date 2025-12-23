@@ -9,13 +9,13 @@ Every year, Stack Overflow surveys thousands of users around the world to unders
 
 For this analysis, I will focus on professional developers with at least three years of experience, who were employed or self-employed at the time of the survey. I will also exclude responses from participants who did not answer the Job Satisfaction question to ensure the integrity of our results.
 
+## Analysis
+
+### How satisfied are developers with their job?
+
 A histogram of job satisfaction scores (ranging from 0 to 10) reveals that developers tend to report high levels of satisfaction. The most frequently selected score is 8, indicating that many developers are generally content with their work.
 
 <center><img src="../images/img_01.png"></center>
-
-**Where does this satisfaction come from?**
-
-## Analysis
 
 ### What job attributes contribute to job satisfaction?
 
