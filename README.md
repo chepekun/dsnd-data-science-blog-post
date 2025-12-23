@@ -9,7 +9,7 @@ The CRISP-DM process is followed in these steps:
 * **02 Data Understanding**: The data is loaded and explored in the notebook 01_data_understanding.ipynb in the /notebooks folder.
 * **03 Data Preparation + Modelling**: Some results from the data exploration section were selected to write the blog post.
     This is done in the 02_story.ipynb. Within the story the data is cleaned and analyzed.
-* **04 Deployment**: An image was generated using Copilot for the blog, stored in the /data folder. 
+* **04 Deployment**: An image was generated using Copilot for the blog, stored in the /images folder. 
     The blog post was uploaded to a platform. 
    
 
