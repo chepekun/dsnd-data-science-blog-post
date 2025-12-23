@@ -1,0 +1,49 @@
+[project]
+name = "dsnd-data-science-blog-post"
+version = "0.1.0"
+description = "Data Science Blog Post"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.30.1",
+    "ipython>=9.6.0",
+    "matplotlib>=3.10.6",
+    "numpy>=2.3.3",
+    "pandas>=2.3.3",
+    "pyright>=1.1.405",
+    "ruff>=0.13.2",
+    "scipy>=1.16.2",
+    "seaborn>=0.13.2",
+]
+
+[tool.pyright]
+pythonVersion = "3.12"
+venvPath = "."
+venv = ".venv"
+typeCheckingMode = "basic"
+reportIncompatibleMethodOverride = "error"
+reportIncompatibleVariableOverride = "error"
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+exclude = [
+    '*/_generated_resources.py',
+    '*-scripts/*',
+    '*/evaluatorLib/Lib/*'
+]
+
+[tool.ruff.lint]
+extend-select = ["N", "E5", "I"]
+ignore = ["N818"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.setuptools.packages.find]
+exclude = ["src"]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
